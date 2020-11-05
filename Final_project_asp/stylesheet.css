@@ -1,0 +1,60 @@
+﻿Body{
+    background-image:url(Images/BACK.jpg);
+background-size:cover;
+}
+* {margin:0px;
+  padding:0px;
+  font-family:sans-serif;
+}
+li{
+     padding:15px 10px;
+  border-bottom:1px solid #444;
+  color:#fcfcfc;
+  text-transform:uppercase;
+  font-size:15px;
+}
+         
+ 
+#sidebar{
+    position:fixed;
+    width:200px;
+    height:100%;
+    background: #151719;
+   position:fixed;
+    transition:all 500ms linear;
+     z-index: 1;
+      overflow-x: hidden; 
+    left: 0;
+    }
+#sidebar h1{
+   
+     color: white; font-family: 'Times New Roman'; font-style:oblique; background-color: black; text-align:center;
+    background:border-box;
+
+}
+
+img{
+    width:100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    }
+#content{
+    margin-left: 200px;
+}
+
+tr{
+    margin:3px;
+    padding:5px;
+    color:white;
+}
+Button{
+    font-style:oblique;
+    height:40px;
+    width:150px;
+
+}
+GridView{
+width:70%;
+}
+
